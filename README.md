@@ -30,7 +30,7 @@ fungsi encrypt digunakan untuk enkripsi data agar sulit dimengerti sbelum disimp
 const { encrypt, decrypt } = require("hillcipher_rabinp");
 ```
 
-## #Kunci Algoritma Rabin P
+### Kunci Algoritma Rabin P
 Siapkanlah kunci privat (p dan q) algoritma Rabin P dengan syarat `p,q adalah bil. prima dan p ≠ q → p ≡ q ≡ 3 mod 4`.
 
 Kunci dapat disimpan dalam file enviromen variabel `.env` untuk keamanan
